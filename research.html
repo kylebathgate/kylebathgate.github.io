@@ -1,0 +1,149 @@
+<html> 
+  <head>
+    <title>Kyle Bathgate | Research</title> 
+    <style>
+    .button {
+      background-color: white;; /* Pick button color */
+      border: none;
+      color: #3a3b3a;
+      padding: 10px 24px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border-radius: 6px;
+    }
+    .button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+
+    .button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+
+    .button:hover span {
+      padding-right: 25px;
+    }
+
+    .button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+    
+    main {
+      background-color: #ffffff;
+      color: rgb(39, 39, 39);
+      width: 900px;
+      text-align: justify;
+      margin: auto;
+      margin-bottom: 1cm
+    }
+    body {
+      background-color: #ffffff;
+      font-family: Tahoma;
+      color: rgb(39, 39, 39);
+      width: 900px;
+      text-align: center;
+      margin: auto;
+      margin-top: 1cm
+    }
+  </style>
+  </head>
+
+  
+  <body> 
+    
+    <h1>Kyle Bathgate</h1> 
+    <hr>
+    <a href="index.html" class="button" style="vertical-align:middle"><span>Home</span> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+    <a href="bio.html" class="button" style="vertical-align:middle"><span>Bio</span></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+    <a href="travel.html" class="button" style="vertical-align:middle"><span>Travel</span></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+    <a href="contact.html" class="button" style="vertical-align:middle"><span>Contact</span></a>
+    <hr>
+    <h2>Research</h2>
+    <a href="Kyle_Bathgate_CV.pdf">Curriculum Vitae</a>
+  </body>
+  <br><br>
+  <main>
+    I study transportation infrastructure resilience, more specifically, how extreme weather and climate change impact the 
+    operation and condition of transportation assets. My two main focuses within this boader area are the study of hurricane 
+    evacuation efficiency and safety, and intermodal port infrastructure risk and resilience assessment.
+    When it comes to research, I like looking at the big picture.
+    I am most intrigued by large scale, network level systems and their associated impacts. 
+    One interest of mine is in combining data sources from multiple transportation modes to account for interdependencies in resilience assessment.
+    <br><br>
+    The methods and technical skills that I have developed during my time in graduate school include statistical data analysis;
+    geographic information systems (GIS); survey, workshop, and interview design and analysis; roadway safety evaluation; 
+    asset managment project scheduling and budget allocation; and simulation techniques including network modeling 
+    and methods such as agent-based modeling and discrete event simulation.
+
+    <br><br>
+    Outside of research, I have a passion for teaching. I have given guest lectures in both undergraduate and graduate
+    civil engineering courses on the topics of resilience and infrastructure management and resource allocation. 
+    For a complete record of my publications, presentations, work experience, and teaching background, please see my CV above. 
+    The following provides an overview of some recent research topics that I have been working on.
+
+    <h3>AIS Vessel Tracking Data</h3>
+    Automatic Identification System (AIS) data provides time and location information for maritime vessels. 
+    While AIS is most commonly used as a real-time tracking aid for vessels on the water, archived historical AIS datasets 
+    are a rich resource for a wide variety of freight transportation assessments. In a paper, "Quantitative Analysis of Hurricane Harvey 
+    Impacts on Texas Maritime Facilities," published in the TransportationResearch Record, I used AIS data to 
+    examine the impact that Hurricane Harvey had on actual vessel movements in the Port of Houston 
+    in 2017. Our study found that the net vessel count (NVC), an indicator of queuing in the system, increased dramatically
+    after Harvey, as shown in the image. The observed behavior of the NVC in the Houston anchorage strongly 
+    displays characteristics of the famed "resilience triangle," where an infrastructure system experiences a performance perturbation 
+    due to a disruptive event, which gradually returns to normal levels as functionalities are restored. 
+    <br><br>
+    We conducted numerous statistical tests and distribution fits to examine the impact that Hurricane Harvey had on vessel wait times 
+    at anchorage and dwell times in port. The findings indicate that Harvey had a significant, disruptive impact on 
+    vessel operations at the Port of Houston. Finally, a Bayesian changepoint detection algorithm was used to identify
+    breaks in the data and find when operations returned to normal. This analysis showed that the disruption on the Port of Houston
+    lasted two months before the systems' queuing reaching typical levels. To read about the full methods and results, please see the
+    <a href="https://doi.org/10.1177/03611981221078574">TRR publication manuscript</a>. <br>
+    <img src="Photos\AIS_NVC_Harvey_2017.png" alt="Houston anchorage NVC, 2017" width="900"  > 
+    <h3>Port Risk and Resilience Assessment</h3>
+    During my MS studies, I worked on a project for the Texas Department of Transportation (TxDOT) titled, "Creating a Resilient Port 
+    System in Texas: Assessing and Mitigating Extreme Weather Events." This project contained many components, such as GIS database integration and
+    outreach with state and federal agency officials and private industry representatives. In addition, I developed a conceptual risk assessment framework 
+    that employed stakeholder feedback, publicly available datasets, and attribute values to determine the criticality, vulnerability, and risk of 
+    the transportation and supporting infrastructure systems. This subject became the topic of my MS thesis <a href="https://repositories.lib.utexas.edu/handle/2152/87526">
+    "Resilience through risk assessment: a conceptual framework for extreme weather risk assessment of the Texas port system"</a>. 
+    <br><br>
+    <img src="Photos\risk_resilience_factors.png" alt="risk factors" width="380"  > 
+    <img src="Photos\risk_assessment_framework.png" alt="Port risk assessment framework" width="460"  > 
+    <img src="Photos\blankspace.png" alt="whitespace" width="900"  > 
+    <img src="Photos\risk_matrix.png" alt="Port risk scoring matrix" width="400"  >
+    <img src="Photos\Texas_Ports_map.png" alt="Map of port infrastructure in Texas" width="460"  > 
+    <img src="Photos\blankspace.png" alt="whitespace" width="400"  > 
+    <br><br>
+    Further work completed under this TxDOT project included an assessment of the economic impacts of port closures due to different 
+    intensity hurricanes. An Excel tool, PortRESECO, was developed to allow port stakeholders to input data to determine the resilience of their
+    own port facilities. The tool also contains a component that allows the user to view the results of the economic assessment 
+    of hurricanes on specific Texas ports. Complex network analysis was performed to assess the resilience of the integrated port system.
+    By computing network metrics such as betweenness centrality, the topological properties that may influence robustness of the complex roadway, 
+    railway, and maritime channel networks was determined. Finally, a list of recommendations was provided to Texas port authorities, state government officials,
+    and TxDOT to enhance the current levels of Texas seaport resilience. To read the full methods, results, and recommendations from this study, please view the 
+    <a href="https://library.ctr.utexas.edu/Presto/content/Detail.aspx?ctID=M2UxNzg5YmEtYzMyZS00ZjBlLWIyODctYzljMzQ3ZmVmOWFl&rID=ODIw">research report in the CTR Library</a>. <br>
+    <h3>Hurricane Evacuation Traffic Analysis and Safety Assessment</h3>
+    Hurricanes are severe events that may impact a large geographic area. As such, evacuations are commonly implemented to safely relocate individuals from areas that
+    may be exposed to hazards like storm surge flooding or high wind speeds. Studying ways to improve evacuation efficiency and reduce delays is important to ensure that
+    everyone is able to leave in advance of the storm's landfall. Similarly, traffic safety during evacuations is important to help reduce roadway incidents which may
+    cause delays and result in injuries or fatalities. I have done some work with empirical crash and traffic volume data to assess evacuation crash frequency
+    using time series decomposition and other statistical methods. I have been involved with work using network analysis and simulation techniques to 
+    formulate user equilibrium and maximum flow problems for examining evacuation efficiency and safety. I have also applied traditional assest management 
+    methods to real-time traffic monitoring devices for use in evacuation scenarios. The image below shows traffic volumes at a count station on US 287 in 
+    Texas during the Hurricane Laura evacuation in 2020.
+  </main>
+  <body>
+    <img src="Photos\Sta20_2020_Traffic_Laura_evac.png" alt="Traffic volumes on US route 287 during 2020 Hurricane Laura evacuation" width="700"  > 
+    <br><br><br><br>
+  </body>
+</html>

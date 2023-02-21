@@ -1,0 +1,109 @@
+<html> 
+  <head>
+    <title>Kyle Bathgate</title> 
+    <style>
+    
+    body {
+      background-color: #ffffff;
+      font-family: Tahoma;
+      color: rgb(39, 39, 39);
+      width: 900px;
+      text-align: center;
+      margin: auto;
+      margin-top: 1cm;
+      margin-bottom: 1cm
+    }
+
+    .header {
+      background-color: #ffffff;
+      color: rgb(39, 39, 39);
+      width: 900px;
+      text-align: center;
+      margin: auto;
+      margin-top: 1cm;
+      margin-bottom: 1cm
+    }
+
+    .button {
+      background-color: white;; /* Pick button color */
+      border: none;
+      color: #3a3b3a;
+      padding: 12px 24px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+      border-radius: 8px;
+      font-family: Tahoma;
+      transition: all 0.5s;
+      cursor: pointer;
+      display: inline-block;
+    }
+    .button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+
+    .button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+
+    .button:hover span {
+      padding-right: 25px;
+    }
+
+    .button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+    
+    main {
+      background-color: #ffffff;
+      color: rgb(39, 39, 39);
+      width: 800px;
+      text-align: justify;
+      margin: auto;
+      margin-top: 1cm;
+      margin-bottom: 1cm;
+    }
+
+  </style>
+  </head>
+
+  
+  <body> 
+    <div class="header">
+    <img src="Photos\ProfilePicCircle.png" alt="Kyle Bathgate portrait" width="200" height="200" > 
+    <h1>Kyle Bathgate</h1> 
+    <a href="mailto:bathgate@utexas.edu"><img src="Icons\email-icon.png" width="30" height="30"></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://www.linkedin.com/in/kyle-bathgate-396864105/"><img src="Icons\linkedin-icon.png" width="30" height="30"></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://github.com/kylebathgate"><img src="Icons\GitHub-icon.png" width="30" height="30"></a> 
+    </div>
+
+    <hr>      
+    <a href="bio.html" class="button" style="vertical-align:middle"><span>Bio</span> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+    <a href="research.html" class="button" style="vertical-align:middle"><span>Research</span> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+    <a href="travel.html" class="button" style="vertical-align:middle"><span>Travel</span> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+    <a href="contact.html" class="button" style="vertical-align:middle"><span>Contact</span> </a>
+    <hr>
+    
+
+    <main>
+    <h2> </h2>
+    I am a Doctoral student at the University of Texas at Austin in the Simulation, Parking, Autonomous vehicles,
+    Routing, & Traffic Assignment (SPARTA) lab. My research focuses on transportation and infrastructure system resilience. 
+    I am interested in learning how to make our infrastructure longer-lasting, more sustainable, and accessible to
+    all. If you would like to speak with me about any of these topics, feel free to send me and email or connect 
+    with me on LinkedIn.
+    </main>
+       
+  
+  </body>
+</html>
